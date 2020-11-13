@@ -6,6 +6,11 @@
     font-family: ProductSans;
     src : url(./assets/fonts/Product_Sans.ttf);
 }
+html, body {
+    height :100%;
+    width : 100%;
+}
+
 .website-logo {
     width : 1.8rem;
     height : 1.8rem;
@@ -66,4 +71,39 @@ div i {
     font-weight: lighter;
     font-size: 1rem;
     margin-bottom: 4%;
+}
+
+#contact-box {
+    display: inline-block;
+    margin-top : 3%;
+    padding: 3% 4%;
+    box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.16);
+}
+
+#contact-box h2 {
+ font-family: Gobold;
+ font-size : 1.5rem;
+ letter-spacing : 0.3rem;
+ text-align: center;
+ margin-bottom: 1.5rem;
+}
+
+#contact-box h3 {
+    font-family : ProductSans;
+    font-size : 1.38rem;
+}
+
+#contact-box p {
+    font-family: ProductSans;
+    font-size : 0.9rem;
+    margin-top:-0.3rem;
+}
+.connect-logo-left {
+    margin: 0 4% 0 0;
+}
+.connect-logo-right {
+    margin: 0 0 0 4%;
+}
+.connect-logo-center {
+    margin: 0 4% 0 4%;
 }
