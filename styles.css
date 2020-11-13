@@ -16,9 +16,29 @@ div i {
     color : #0d0d0d;
     text-decoration: none;
 }
-.navbar {
+.navbar ,.navbar-padding {
     padding : 2% 10%;
+}
+.navbar-margin {
+    margin : 2% 10%;
 }
 .mx-auto {
     padding-left : 20%;
+}
+.bg-img {
+    width:100%;
+    height :auto;
+}
+#grass-bg {
+    ;
+}
+#grass-bg h1 {
+    position : absolute;
+    z-index : 2;
+    color : white;
+    font-size: 4rem;
+}
+#journey-text-field {
+    background-color: #0d0d0d;
+    color : white;
 }
