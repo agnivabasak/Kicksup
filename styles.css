@@ -1,0 +1,24 @@
+.website-logo {
+    width : 1.8rem;
+    height : 1.8rem;
+}
+div i {
+    font-size: 1.3rem;
+} 
+.profile-link{
+    color : #0d0d0d
+}
+.profile-link i {
+    font-size: 1rem;
+    padding-right: 0.3rem;
+}
+.profile-link:hover{
+    color : #0d0d0d;
+    text-decoration: none;
+}
+.navbar {
+    padding : 2% 10%;
+}
+.mx-auto {
+    padding-left : 20%;
+}
