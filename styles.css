@@ -107,3 +107,44 @@ div i {
 .connect-logo-center {
     margin: 0 4% 0 4%;
 }
+
+.team-div h2 {
+    font-family : ProductSans;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.person-card-row {
+    padding : 0 5rem;
+}
+.person-card {
+    display: inline-block;
+    width : 12rem;
+    height : auto;
+    box-shadow: 0 0 1.3rem 0 rgba(0, 0, 0, 0.16);
+
+}
+.person-card img {
+    width : 12rem;
+    height : 11rem;
+}
+.person-card h3 {
+    font-family: Gobold;
+    text-align : center;
+    font-size : 1.2rem;
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+}
+.person-card p {
+    font-family: ProductSans;
+    text-align : center;
+    font-size : 0.86rem;
+    margin-top : -0.5rem;
+}
+.person-card-contact {
+    width :100%;
+    padding: 0rem 2rem 2rem 2rem;
+}
+.person-card-contact img {
+    height : 1.6rem;
+    width : 1.6rem;
+}
