@@ -30,7 +30,11 @@ div i {
     text-decoration: none;
 }
 .navbar {
-    padding : 2% 10%;
+    padding : 2% 10% 1% 10%;
+    margin-bottom :1%;
+}
+.rest-page {
+    height :90vh;
 }
 .navbar-padding {
     padding : 0 10%;
@@ -136,17 +140,45 @@ div i {
 .connect-logo-center {
     margin: 0 4% 0 4%;
 }
-
+.team-div {
+    overflow:auto;
+}
 .team-div h2 {
     font-family : ProductSans;
     font-size: 1.2rem;
     text-align: center;
 }
 .person-card-row {
-    padding : 0 5rem;
+    padding : 5vh 5rem;
+}
+.person-card-bootstrap-row {
+    margin: 5vh 5vw;
+}
+.person-card-bootstrap {
+    width : 224px;
+    box-shadow: 0 0 1.3rem 0 rgba(0, 0, 0, 0.16);
+}
+.person-card-bootstrap img {
+    width :100%;
+    height :11rem;
+}
+.person-card-bootstrap h5 {
+    font-family: Gobold;
+    text-align : center;
+    font-size : 1.3rem;
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+    margin-left : 0;
+}
+.person-card-bootstrap h6 {
+    font-family: ProductSans;
+    text-align : center;
+    font-size : 0.86rem;
+    margin-top : -0.5rem;
+    margin-left : 0;
 }
 .person-card {
-    width : 12rem;
+    width : 30px;
     height : auto;
     box-shadow: 0 0 1.3rem 0 rgba(0, 0, 0, 0.16);
     padding : 0;
@@ -170,9 +202,99 @@ div i {
 }
 .person-card-contact {
     width :100%;
-    padding: 0rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
 }
 .person-card-contact img {
     height : 1.6rem;
     width : 1.6rem;
 }
+.store-comp-container {
+    padding: 1rem 3rem;
+}
+.store-comp1 {
+    height: 100%;
+    padding-right: 2rem !important;
+    padding-left: 0 !important;
+}
+.store-comp2{
+    height :100%;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
+.store-comp2b{
+    height: 100%;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 23%)
+}
+#comp1-view {
+    height:100%;
+    width :100%;
+}
+#comp1-prod-view {
+    height : 75%;
+    margin : 1rem 3rem;
+}
+.fa-star {
+    color : #ffc94d ;
+    font-size: 1rem ;
+}
+#review-star i {
+    color : #ffc94d ;
+    font-size: 0.8rem ;
+}
+@media screen and (max-width : 1200px) {
+    .store-comp1 {
+        height : 98vh;
+        margin-bottom: 6vh;
+        padding-right: 0 !important; 
+    }
+    .store-comp2 {
+        height: 50vh;
+    }
+}
+@media screen and (max-width : 1230px) {
+    #rate-prod-view  {
+        margin-bottom : 2vh !important;
+    }
+}
+@media screen and (max-width : 500px) {
+    #rate-prod-view {
+        text-align: center !important;
+        margin-left : -10vw !important;
+    }
+}
+@media screen and (max-width : 1200px){
+    .store-comp2 , .store-comp2 .store-comp2b{
+        height : auto;
+        padding-bottom: 2vh;
+    }
+    .cart-shoe {
+        width : 30% !important;
+        height: auto;
+        margin-bottom:2vh !important;
+    }
+}
+@media screen and (max-width : 768px) {
+    .store-comp1 , .store-comp1 .store-comp2b{
+        height : auto;
+        padding-bottom: 2vh;
+    }
+    #sub-imgs {
+        margin-top : 4vh !important;
+        flex-direction : row !important;
+        justify-content: space-between !important;
+    }
+    #comp1-prod-view {
+        text-align: center;
+    }
+    .prod-choices {
+        margin-bottom: 2vh !important;
+    }
+    #comp1-img2, #comp1-img3 , #comp1-img4  {
+        width :30% !important;
+    }
+    #prod-buy {
+        margin-bottom: 2vh !important;
+    }
+
+}
+
